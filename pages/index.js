@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
         <div className={franklin.className}>
             <h1 className={styles.fluidType}>I build things</h1>
-            <p>I am building this now.</p>
+            <p className={styles.type}>I am building this now.</p>
         </div>
     </>
   )
