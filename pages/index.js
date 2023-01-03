@@ -1,5 +1,6 @@
 import Head from 'next/head'
 // import Image from 'next/image'
+import Chart from '../components/chart'
 import { Libre_Franklin } from '@next/font/google'
 import styles from '../styles/Home.module.css' 
 const franklin = Libre_Franklin({ subsets: ['latin'] })
@@ -16,7 +17,8 @@ export default function Home() {
       </Head>
         <div className={franklin.className}>
             <h1 className={styles.fluidType}>I build things</h1>
-            <p className={styles.type}>I am building this now.</p>
+            <Chart/>
+
         </div>
     </>
   )
