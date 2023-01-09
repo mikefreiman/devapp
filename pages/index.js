@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <div>
-            <h1 className="fluid-type font-bold">I build things</h1>
+            <h1 className="fluid-type font-semibold">I build things</h1>
             <Chart/>
         </div>
     </>
