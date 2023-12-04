@@ -18,21 +18,31 @@
 }
 
 :root {
-    --body-bg-color: hsl(240, 18%, 94%);
-    --page-bg-color: hsl(240, 14%, 96%);
-    --page-shadow-color: hsla(201, 11%, 74%, 0.5);
-    --section-bg-color: hsl(207, 6%, 20%);
-    --text-color: hsl(240, 16%, 16%); 
+    --body-bg-color: hsl(240, 24%, 93%);
+    --page-bg-color: hsl(240, 20%, 98%);
+    --page-shadow-color: hsla(240, 21%, 85%, 0.35);
+    --section-bg-color: hsl(0, 0%, 100%);
+    --section-accent-color: hsl(247, 67%, 49%);
+    --section-accent-color-1: hsl(247, 67%, 40%);
+    --section-accent-color-2: hsl(247, 67%, 58%);
+    --text-color: hsl(244, 63%, 18%);
+    --border-rad: 12px 12px 0 0;
+    --border-rad-lg: 12px 0 0 0;
+    --border-rad-enhanced: 30% 5% / 20%;
+    --google-font: 'Josefin Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --body-bg-color: hsl(240, 15%, 13%);
-    --page-bg-color: hsl(235, 15%, 17%);
-    --page-shadow-color: hsl(207deg 73% 5% / 50%);
-    --section-bg-color: hsl(207, 6%, 20%);
-    --text-color: hsl(240, 15%, 80%);
-  }
+    :root {
+        --body-bg-color: hsl(248, 11%, 15%);
+        --page-bg-color: hsl(247, 10%, 18%);
+        --page-shadow-color: hsla(248, 11%, 15%, 0.45);
+        --section-bg-color: hsl(245, 8%, 28%);
+        --section-accent-color: hsl(247, 63%, 39%);
+        --section-accent-color-1: hsl(247, 63%, 30%);
+        --section-accent-color-2: hsl(247, 63%, 48%);
+        --text-color: hsl(240, 60%, 99%);
+    }
 }
 
 body {
@@ -40,7 +50,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+    html {
+        color-scheme: dark;
+    }
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 // import Image from 'next/image'
 import Chart from '../components/chart'
+import Checkbox from '../components/checkbox'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <div>
             <h1 className="fluid-type font-semibold">I&apos;m a Web Developer</h1>
             <Chart/>
+            <Checkbox/>
         </div>
     </>
   )
