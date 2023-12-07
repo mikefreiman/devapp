@@ -55,13 +55,3 @@ input:checked+.themeSlider:before {
     transform: translateX(24px);
     background-color: var(--section-accent-color);
 }
-
-.hotbox {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-
-.enhanced {
-    background-color: green;
-}
